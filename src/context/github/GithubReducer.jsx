@@ -39,7 +39,7 @@ const githubReducer = (state, action) => {
       };
     }
     default:
-      return "";
+      return;
   }
 };
 
