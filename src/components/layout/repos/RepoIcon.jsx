@@ -54,7 +54,7 @@ function RepoIcon({ languageState }) {
           <DiRuby className="flex items-center justify-center mb-2 md:mb-0 text-red-500" />
         );
       default:
-        return language;
+        return;
     }
   };
 
